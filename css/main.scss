@@ -39,6 +39,22 @@ body {
   }
 }
 
+.ribbon {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: .1em 3em;
+    border: 1px solid rgba(0,0,0,0.1);
+    background-color: #eee;
+    color: #555;
+    font-weight: bold;
+    -webkit-transform: translateX(75%) rotate(45deg) translateX(-30%);
+    transform: translateX(75%) rotate(45deg) translateX(-30%);
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+}
+
 
 .header-container {
   background-color: #eee;
