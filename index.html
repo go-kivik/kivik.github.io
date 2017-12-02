@@ -2,15 +2,36 @@
 layout: default
 ---
 
+<link rel="stylesheet" href="/css/highlight.css">
+<script src="/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
 <div class="header-container jumbotron">
     <div class="container">
-        <h1>CouchDB and PouchDB for Go</h1>
-        <p>Kivik is modeled after the Go standard library's
-            <a href="https://golang.org/pkg/database/sql/">sql</a> and
-            <a href="https://golang.org/pkg/database/sql/driver/">sql/driver</a>
-            packages, although the client API is completely different due to the
-            different database models implemented by SQL and NoSQL databases
-            such as CouchDB.</p>
+        <div class="col-md-6">
+            <h1>CouchDB and PouchDB for Go</h1>
+            <p>Kivik is modeled after the Go standard library's
+                <a href="https://golang.org/pkg/database/sql/">sql</a> and
+                <a href="https://golang.org/pkg/database/sql/driver/">sql/driver</a>
+                packages, although the client API is completely different due to the
+                different database models implemented by SQL and NoSQL databases
+                such as CouchDB.</p>
+        </div>
+        <div class="col-md-6">
+            <pre><code class="go">package main
+
+import (
+    "context"
+
+    "github.com/flimzy/kivik"
+    _ "github.com/go-kivik/couchdb" // The CouchDB driver
+)
+
+func main() {
+    client, err := kivik.New(context.TODO(), "couch", "http://localhost:5984/")
+    // ...
+}</code></pre>
+        </div>
     </div>
 </div>
 
@@ -34,11 +55,13 @@ layout: default
               to host your project’s page, blog, or website from GitHub’s servers <strong>for
               free</strong>.</p>
             </blockquote>
+-->
         </div>
+<!--
         <div class="col-md-6 text-center">
             <img src="img/jekyll-dark.png" alt="" class="img-responsive">
         </div>
-    -->
+-->
     </div>
 <!--
     <hr>
