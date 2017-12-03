@@ -10,12 +10,10 @@ layout: default
     <div class="container">
         <div class="col-md-6">
             <h1>CouchDB and PouchDB for Go</h1>
-            <p>Kivik is modeled after the Go standard library's
-                <a href="https://golang.org/pkg/database/sql/">sql</a> and
-                <a href="https://golang.org/pkg/database/sql/driver/">sql/driver</a>
-                packages, although the client API is completely different due to the
-                different database models implemented by SQL and NoSQL databases
-                such as CouchDB.</p>
+            <p>Kivik provides a common Go API for interacting with CouchDB and
+                CouchDB-like databases.
+            </p>
+            <p><a class="btn btn-primary btn-lg" href="#more" role="button">Learn more</a></p>
         </div>
         <div class="col-md-6">
             <pre><code class="go">package main
@@ -40,28 +38,29 @@ func main() {
 
     <div class="row">
         <div class="col-md-6">
-            <p>Visit the Kivik <a href="https://github.com/flimzy/kivik">GitHub</a>
-                page for more info.</p>
-<!--
-            <h2 class="header-light regular-pad">Under construction</h2>
-            <blockquote>
-              <p>Jekyll is a simple, blog-aware, static site generator. It takes a template
-              directory containing raw text files in various formats, runs it through
-              a converter (like <a href="https://daringfireball.net/projects/markdown/">Markdown</a>)
-              and our <a href="https://github.com/Shopify/liquid/wiki">Liquid</a> renderer, and
-              spits out a complete, ready-to-publish static website suitable
-              for serving with your favorite web server. Jekyll also happens to be the engine
-              behind <a href="https://pages.github.com">GitHub Pages</a>, which means you can use Jekyll
-              to host your project’s page, blog, or website from GitHub’s servers <strong>for
-              free</strong>.</p>
-            </blockquote>
--->
+            <a id="more"></a>
+            <h2 class="header-light regular-pad">What is Kivik?</h2>
+            <p>
+                Kivik is a common interface to CouchDB and CouchDB-like databases
+                for Go and GopherJS.
+            </p>
+            <p>
+                Kivik's driver architecture is modeled after the Go standard
+                library's <a href="https://golang.org/pkg/database/sql/">sql</a>
+                and <a href="https://golang.org/pkg/database/sql/driver/">sql/driver</a>
+                packages.  This allows for the addition of
+                <a href="https://github.com/flimzy/kivik/wiki/Kivik-database-drivers">arbitrary
+                backend drivers</a>, while maintaining API compatibility.
+            </p>
+            <p>
+                One primary goal of Kivik is to provide a common interface to
+                both CouchDB in Go, and PouchDB in
+                <a href="https://github.com/gopherjs/gopherjs">GopherJS</a>.
+            </p>
         </div>
-<!--
         <div class="col-md-6 text-center">
-            <img src="img/jekyll-dark.png" alt="" class="img-responsive">
+            <img src="img/logo-kivik-lg.png" alt="" class="img-responsive">
         </div>
--->
     </div>
     <hr>
 
