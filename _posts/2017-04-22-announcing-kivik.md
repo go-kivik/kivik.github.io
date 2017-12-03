@@ -8,7 +8,7 @@ permalink: /announcing-kivik-couchdb-pouchdb-golang
 ---
 
 <i>**Editorial Note:** This post originally appeared on
-[Jonathan Hall's blog](http://verbally.flimzy.com/announcing-kivik-couchdb-pouchdb-go/)</i>
+[Jonathan Hall's blog](http://verbally.flimzy.com/announcing-kivik-couchdb-pouchdb-go/).</i>
 
 For nearly 3 months now, I’ve spent most of my free time working on a new
 open-source project: a Go client library for CouchDB and PouchDB. As I’m now
