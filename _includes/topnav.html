@@ -23,11 +23,11 @@
             <ul class="nav navbar-nav">
 <!--
                 <li {% if page.sectionid=='docs' %} class="active" {% endif %}><a href="{{ "/docs/home/" | prepend: site.baseurl }}">Docs</a></li>
-                <li {% if page.sectionid=='blog' %} class="active" {% endif %}><a href="{{ site.posts.first.url | prepend: site.baseurl }}">Blog</a></li>
 -->
                 <li><a href="https://godoc.org/github.com/flimzy/kivik">GoDoc</a></li>
                 <li><a href="https://github.com/flimzy/kivik/wiki">Wiki</a></li>
                 <li><a href="https://github.com/flimzy/kivik/issues">Bugs</a></li>
+                <li {% if page.sectionid=='blog' %} class="active" {% endif %}><a href="{{ site.posts.first.url | prepend: site.baseurl }}">News</a></li>
             </ul>
             <div class="navbar-right">
                 <form class="navbar-form navbar-left">
