@@ -27,7 +27,7 @@ func main() {
     dsn := "http://localhost:5984"
     client, err := kivik.New(context.TODO(), "couch", dsn)
     if err != nil {
-        log.Fatal(err)
+        panic(err)
     }
     // ...
 }</code></pre>
