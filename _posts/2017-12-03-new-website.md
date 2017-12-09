@@ -4,6 +4,7 @@ title: New Web Site
 date: 2017-12-03
 author: Jonathan Hall
 permalink: /new-website
+excerpt: Today I have launched the new Kivik web site at http://kivik.io/!
 ---
 
 Today I have launched the new Kivik web site at [kivik.io](http://kivik.io/)!

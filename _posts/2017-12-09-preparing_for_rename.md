@@ -4,6 +4,7 @@ title: Preparing for a Package Rename
 date: 2017-12-09
 author: Jonathan Hall
 permalink: /preparing-for-rename
+excerpt: In August, I began splitting Kivik into its individual components. Only one major step remains: Renaming the core Kivik library.
 ---
 
 When I first wrote Kivik, I put everything into a single package. The core
