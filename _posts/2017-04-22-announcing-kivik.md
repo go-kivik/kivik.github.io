@@ -66,7 +66,7 @@ So today I am announcing [Kivik](https://github.com/flimzy/kivik)!
  need for a full CouchDB server.
 - **Add full replication support to Kivik.** At present, Kivik can initiate a
  replication via either the CouchDB `_replicator` database, or PouchDB’s
- `replicate()`` function, but has no understanding of the replication protocol
+ `replicate()` function, but has no understanding of the replication protocol
  itself. In the future, Kivik will also be able to do replications itself. This
  will allow replicating between backends (such as from the `memory` backend to
  the `CouchDB` backend), which could facilitate seeding of databases, and other
@@ -92,9 +92,9 @@ backend driver, to facilitate automated testing applications.
 Simrishamn Municipality, Skåne County, Sweden with 960 inhabitants as of 2010.
 
 It also happens to be, by sheer coincidence, I’m sure, the name of a
-[line of sofas from IKEA](http://www.ikea.com/us/en/catalog/categories/series/18329/).
-Also by coincidence, it’s the shortest name of an IKEA sofa line that can be
-spelled using only Latin characters.
+<a rel="nofollow" href="http://www.ikea.com/us/en/catalog/categories/series/18329/">line
+of sofas from IKEA</a>. Also by coincidence, it’s the shortest name of an IKEA
+sofa line that can be spelled using only Latin characters.
 
 It also happens to be a palindrome, which I’m sure someone will appreciate
 immensely.
