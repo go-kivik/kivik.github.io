@@ -1,9 +1,8 @@
 # Site settings
 title: Kivik
-subtitle: CouchDB and PouchDB for Golang and GopherJS
 email: flimzy@flimzy.com
 description: >
-  Common CouchDB and PouchDB interface for Golang and GopherJS
+  CouchDB and PouchDB library for Golang and GopherJS
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: http://kivik.io # the base hostname & protocol for your site
