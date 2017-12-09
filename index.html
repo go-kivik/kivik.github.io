@@ -11,24 +11,27 @@ excerpt: Kivik provides a common CouchDB and PouchDB API for Golang and GopherJS
     <div class="container">
         <div class="col-md-6">
             <h1>CouchDB and PouchDB for Go</h1>
-            <p>Kivik provides a common [Go](https://golang.org/) API for
-                interacting with [CouchDB](http://couchdb.apache.org/) and
-                CouchDB-like databases.
+            <p>Kivik provides a common <a href="https://golang.org/">Go</a> and
+                <a href="https://github.com/gopherjs/gopherjs">GopherJS</a> API
+                for <a href="http://couchdb.apache.org/">CouchDB</a>,
+                <a href="https://pouchdb.com/">PouchDB</a>, and similar
+                databases.
             </p>
             <p><a class="btn btn-primary btn-lg" href="#more" role="button">Learn more</a></p>
         </div>
         <div class="col-md-6">
             <pre><code class="go">package main
 
-import (
-    "context"
-
-    "github.com/flimzy/kivik"
-    _ "github.com/go-kivik/couchdb" // The CouchDB driver
-)
+import "context"
+import "github.com/flimzy/kivik"
+import _ "github.com/go-kivik/couchdb" // The CouchDB driver
 
 func main() {
-    client, err := kivik.New(context.TODO(), "couch", "http://localhost:5984/")
+    dsn := "http://localhost:5984"
+    client, err := kivik.New(context.TODO(), "couch", dsn)
+    if err != nil {
+        log.Fatal(err)
+    }
     // ...
 }</code></pre>
         </div>
