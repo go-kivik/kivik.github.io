@@ -5,7 +5,7 @@ subtitle: The general-purpose CouchDB client API for Go and GopherJS
 date: 2017-04-22
 author: Jonathan Hall
 permalink: /announcing-kivik-couchdb-pouchdb-golang
-excerpt: For nearly 3 months I've been working on a Golang client library for CouchDB and PouchDB. Announcing: Kivik 1.0.
+excerpt: "For nearly 3 months I've been working on a Golang client library for CouchDB and PouchDB. Announcing: Kivik 1.0."
 ---
 
 <i>**Editorial Note:** This post originally appeared on
