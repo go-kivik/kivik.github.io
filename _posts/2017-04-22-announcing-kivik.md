@@ -18,7 +18,7 @@ make my work public.
 
 <img alt="Kivik logo" src="/img/logo-kivik-lg.png" sizes="(max-width: 300px) 100vw, 300px"
     height="248" width="300" style="float: right;">
-So today I am announcing [Kivik](https://github.com/flimzy/kivik)!
+So today I am announcing [Kivik](https://github.com/go-kivik/kivik)!
 
 > Kivik is a general-purpose client API for the
 > [Apache CouchDB](http://couchdb.apache.org/) database, and
@@ -40,7 +40,7 @@ So today I am announcing [Kivik](https://github.com/flimzy/kivik)!
  library, [github.com/fjl/go-couchdb](https://godoc.org/github.com/fjl/go-couchdb),
  has no published license, which probably means it’s not open-source (but IANAL).
  Kivik is released under the
- [Apache License](https://github.com/flimzy/kivik/blob/master/LICENSE.md), for
+ [Apache License](https://github.com/go-kivik/kivik/blob/master/LICENSE.md), for
  complete open-source compatibility with CouchDB and PouchDB.
 - **Kivik provides support for both CouchDB 1.6.x and CouchDB 2.0.x.** To my
  knowledge, no other Go client library provides support for MongoDB-style
@@ -111,5 +111,5 @@ ways:
  submitting PRs for new features, to discuss the implications.
 - **Logo design** The “logo” I’m using is just a public domain image. If you’re
  graphically inclined, I’d love a custom logo. Please contact me by creating an
- [issue on GitHub](https://github.com/flimzy/kivik/issues/new) if you are
+ [issue on GitHub](https://github.com/go-kivik/kivik/issues/new) if you are
  interested.
