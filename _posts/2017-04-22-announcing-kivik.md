@@ -16,7 +16,7 @@ open-source project: a Go client library for CouchDB and PouchDB. As I’m now
 putting together the last major feature for a 1.0 release, I feel it’s time to
 make my work public.
 
-<img alt="Kivik logo" src="/img/logo-kivik-lg.png" sizes="(max-width: 300px) 100vw, 300px"
+<img alt="Kivik logo" src="/img/logo-kivik.png" sizes="(max-width: 300px) 100vw, 300px"
     height="248" width="300" style="float: right;">
 So today I am announcing [Kivik](https://github.com/go-kivik/kivik)!
 
