@@ -2,7 +2,7 @@
 layout: post
 title: (Probably) final 2.0.0 pre-release, and v3 announcement
 subtitle: Final preparations for v2.0.0 (and v3!)
-date: 2019-06-09
+date: 2019-12-16
 author: Jonathan Hall
 permalink: /final-v2-prerelease
 excerpt: "v2.0.0 (and v3.0.0) is almost here"
