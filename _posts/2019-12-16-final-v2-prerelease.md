@@ -10,10 +10,11 @@ excerpt: "v2.0.0 (and v3.0.0) is almost here"
 
 Today I tagged what I expect to be the final pre-relese of all core Kivik packages:
 
-- **go-kivik/kivik** -- v2.0.0-pre3
-- **couchdb** - v2.0.0-pre4
-- **pouchdb** -- v2.0.0-pre3
-- **kiviktest** - v2.0.0-pre4
+- **kivik** -- [v2.0.0-pre3](https://github.com/go-kivik/kivik/releases/tag/v2.0.0-pre3)
+- **couchdb** - [v2.0.0-pre4](https://github.com/go-kivik/couchdb/releases/tag/v2.0.0-pre4)
+- **pouchdb** -- [v2.0.0-pre3](https://github.com/go-kivik/pouchdb/releases/tag/v2.0.0-pre3)
+- **kivikmock** - [v2.0.0-pre3](https://github.com/go-kivik/kivikmock/releases/tag/v2.0.0-pre3) (unchanged)
+- **kiviktest** - [v2.0.0-pre4](https://github.com/go-kivik/kiviktest/releases/tag/v2.0.0-pre4)
 
 I expect to tag the final **v2.0.0** version within a couple of weeks, unless bug reports come in.
 
