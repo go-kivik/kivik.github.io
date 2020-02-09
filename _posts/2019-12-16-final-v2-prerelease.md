@@ -8,7 +8,7 @@ permalink: /final-v2-prerelease
 excerpt: "v2.0.0 (and v3.0.0) is almost here"
 ---
 
-Today I tagged what I expect to be the final pre-relese of all core Kivik packages:
+Today I tagged what I expect to be the final pre-release of all core Kivik packages:
 
 - **kivik** -- [v2.0.0-pre3](https://github.com/go-kivik/kivik/releases/tag/v2.0.0-pre3)
 - **couchdb** - [v2.0.0-pre4](https://github.com/go-kivik/couchdb/releases/tag/v2.0.0-pre4)
