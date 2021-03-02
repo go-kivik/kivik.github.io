@@ -20,8 +20,8 @@ excerpt: Kivik provides a common CouchDB and PouchDB API for Golang and GopherJS
             <pre><code class="go">package main
 
 import "context"
-import "github.com/go-kivik/kivik"
-import _ "github.com/go-kivik/couchdb" // The CouchDB driver
+import "github.com/go-kivik/kivik/v3"
+import _ "github.com/go-kivik/couchdb/v3" // The CouchDB driver
 
 func main() {
     dsn := "http://localhost:5984"
@@ -62,8 +62,8 @@ func main() {
                 Install Kivik and the CouchDB driver to get started:
             </p>
             <pre>
-    go get -u github.com/go-kivik/kivik
-    go get -u github.com/go-kivik/couchdb</pre>
+    go get -u github.com/go-kivik/kivik/v3
+    go get -u github.com/go-kivik/couchdb/v3</pre>
             <p>
                 Then follow the <a href="https://github.com/go-kivik/kivik/wiki/Usage-Examples">Usage
                 Examples</a>, or read the <a href="https://pkg.go.dev/github.com/go-kivik/kivik/v3">GoDoc</a>,
